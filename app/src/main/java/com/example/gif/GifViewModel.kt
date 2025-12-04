@@ -15,7 +15,7 @@ class GifViewModel : ViewModel() {
         viewModelScope.launch {
             try {
                 val response = ApiClient.api.searchGifs(
-                    apiKey = "HO0awbXsHr3HD6RlhcfX1DEsm7pOjmc6",
+                    apiKey = "YOUR API KEY",
                     query = query,
                     limit = 2
                 )
